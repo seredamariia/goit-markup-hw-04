@@ -86,6 +86,7 @@ h3 {
 
 .header {
   border-bottom: 1px solid var(--accent);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-inner {
@@ -133,6 +134,23 @@ h3 {
   padding: 24px 0;
 }
 
+.header-studio {
+  position: relative;
+  color: var(--pressed-state);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-studio::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 48px;
+  height: 4px;
+  background-color: var(--pressed-state);
+  border-radius: 2px;
+}
+
 .address {
   font-style: normal;
 }
@@ -140,6 +158,7 @@ h3 {
 .address-list {
   display: flex;
   gap: 40px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-contacts {
@@ -284,7 +303,7 @@ h3 {
 
 .team-icons {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   justify-content: center;
 }
 
@@ -297,7 +316,6 @@ h3 {
   align-items: center;
   justify-content: center;
   padding: 12px;
-  gap: 24px;
 }
 
 .team-link:hover,
