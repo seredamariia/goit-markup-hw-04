@@ -345,7 +345,10 @@ h3 {
 .footer-content {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-info {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -383,7 +386,11 @@ h3 {
 .footer-icons {
   display: flex;
   gap: 16px;
-  justify-content: center;
+}
+
+.footer-icon {
+  height: 40px;
+  width: 40px;
 }
 
 .footer-link {
@@ -404,5 +411,5 @@ h3 {
 }
 
 .footer-svg {
-  fill: var(--light)
+  fill: var(--light);
 }
