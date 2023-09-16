@@ -276,6 +276,20 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.team-icons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.team-icon {
+  background-color: var(--primary-brand);
+  fill: var(--white);
+  border-radius: 100%;
+  padding: 12px;
 }
 
 .portfolio-text {
