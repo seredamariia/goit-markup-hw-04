@@ -158,13 +158,13 @@ h3 {
 .address-list {
   display: flex;
   gap: 40px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-contacts {
   color: var(--text);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-menu:hover,
